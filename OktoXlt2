@@ -1,893 +1,507 @@
--- Made By Doodle & Redesigned And Fixed  By Dragon Dupe
--- Doodle's Hub Beta
- 
--- Instances:
- 
-local DoodlesHub = Instance.new("ScreenGui")
-local OpenFrame = Instance.new("Frame")
-local Open = Instance.new("TextButton")
-local Main = Instance.new("Frame")
-local GuiNameAndClose = Instance.new("Frame")
-local DoodleHub = Instance.new("TextLabel")
-local Close = Instance.new("TextButton")
-local GuiNameAndClose_2 = Instance.new("Frame")
-local Credits = Instance.new("TextLabel")
-local bloodhub = Instance.new("TextButton")
-local jb36hub = Instance.new("TextButton")
-local jjkhub = Instance.new("TextButton")
-local duper = Instance.new("TextButton")
-local ferry = Instance.new("TextButton")
-local pinkwires = Instance.new("TextButton")
- 
+if decompile and setclipboard and readfile and writefile and getsenv and getrawmetatable and getrenv and getgenv and saveinstance and debug and debug.getregistry and debug.getupvalue and debug.getupvalues and debug.setupvalue and debug.getconstants then 
+FreeExploit = false
+else 
+FreeExploit = true
+end
+
+Dirt = Instance.new("ScreenGui")
+ MainFrame = Instance.new("Frame")
+ Car = Instance.new("Frame")
+ Nothing = Instance.new("TextLabel")
+ Deactivated1 = Instance.new("ImageButton")
+ CarMain = Instance.new("Frame")
+ CarMain2 = Instance.new("Frame")
+ CarSpeed = Instance.new("TextButton")
+ TextBox = Instance.new("TextBox")
+ RotateC = Instance.new("TextButton")
+ Noclip = Instance.new("TextButton")
+ PinkCar = Instance.new("TextButton")
+ PinkCarFrame = Instance.new("Frame")
+ PinkCarText = Instance.new("TextLabel")
+ TpCar = Instance.new("TextButton")
+ TpCarFrame = Instance.new("Frame")
+ ScrollingFrame = Instance.new("ScrollingFrame")
+ GoldWood = Instance.new("TextButton")
+ IceWood = Instance.new("TextButton")
+ WoodRUs = Instance.new("TextButton")
+ LinksLogic = Instance.new("TextButton")
+ LandStore = Instance.new("TextButton")
+ Cave = Instance.new("TextButton")
+ Volcano = Instance.new("TextButton")
+ FancyFurnishings = Instance.new("TextButton")
+ FineArtsShop = Instance.new("TextButton")
+ Swamp = Instance.new("TextButton")
+ PalmIsland = Instance.new("TextButton")
+ Dock = Instance.new("TextButton")
+ Bridge = Instance.new("TextButton")
+ ShrineOfSight = Instance.new("TextButton")
+ EndTimes = Instance.new("TextButton")
+ UIListLayout = Instance.new("UIListLayout")
+ TheDen = Instance.new("TextButton")
+ SpawnPoint = Instance.new("TextButton")
+ BoxedCars = Instance.new("TextButton")
+ BobsShack = Instance.new("TextButton")
+ Credits = Instance.new("Frame")
+ Nothing_2 = Instance.new("TextLabel")
+ Deactivated2 = Instance.new("ImageButton")
+ CredtisMain = Instance.new("Frame")
+ Nothing_3 = Instance.new("TextLabel")
+ Nothing_4 = Instance.new("TextLabel")
+ Nothing_5 = Instance.new("TextLabel")
+ Nothing_6 = Instance.new("TextLabel")
+ Nothing_7 = Instance.new("TextLabel")
+ Nothing_8 = Instance.new("TextLabel")
+ Buy = Instance.new("Frame")
+ Nothing_9 = Instance.new("TextLabel")
+ Deactivated9 = Instance.new("ImageButton")
+ BuyMain = Instance.new("Frame")
+ BuyFrame = Instance.new("Frame")
+ CurrentItem = Instance.new("ImageLabel")
+ Cost = Instance.new("TextLabel")
+ DoBuy = Instance.new("TextButton")
+ BuyMain2 = Instance.new("Frame")
+ Furnitures = Instance.new("Frame")
+ Nothing_10 = Instance.new("TextLabel")
+ ButtonFurn = Instance.new("ImageButton")
+ FurnituresMain = Instance.new("Frame")
+ ScrollingFrame_2 = Instance.new("ScrollingFrame")
+ UIGridLayout = Instance.new("UIGridLayout")
+ Seat_Armchair = Instance.new("ImageButton")
+ Seat_Loveseat = Instance.new("ImageButton")
+ Seat_Couch = Instance.new("ImageButton")
+ Bed1 = Instance.new("ImageButton")
+ Bed2 = Instance.new("ImageButton")
+ Toilet = Instance.new("ImageButton")
+ GlassDoor1 = Instance.new("ImageButton")
+ GlassPane4 = Instance.new("ImageButton")
+ GlassPane3 = Instance.new("ImageButton")
+ GlassPane2 = Instance.new("ImageButton")
+ GlassPane1 = Instance.new("ImageButton")
+ Kitchens = Instance.new("Frame")
+ Nothing_11 = Instance.new("TextLabel")
+ ButtonKitchen = Instance.new("ImageButton")
+ KitchensMain = Instance.new("Frame")
+ ScrollingFrame_3 = Instance.new("ScrollingFrame")
+ UIGridLayout_2 = Instance.new("UIGridLayout")
+ CounterTop1 = Instance.new("ImageButton")
+ CounterTop1Thin = Instance.new("ImageButton")
+ CounterTop1Sink = Instance.new("ImageButton")
+ Cabinet1CornerWide = Instance.new("ImageButton")
+ Cabinet1CornerTight = Instance.new("ImageButton")
+ Cabinet1 = Instance.new("ImageButton")
+ Cabinet1Thin = Instance.new("ImageButton")
+ Stove = Instance.new("ImageButton")
+ Refridgerator = Instance.new("ImageButton")
+ Others = Instance.new("Frame")
+ Nothing_12 = Instance.new("TextLabel")
+ ButtonOthers = Instance.new("ImageButton")
+ OthersMain = Instance.new("Frame")
+ ScrollingFrame_4 = Instance.new("ScrollingFrame")
+ UIGridLayout_3 = Instance.new("UIGridLayout")
+ BagOfSand= Instance.new("ImageButton")
+ LightBulb = Instance.new("ImageButton")
+ CanOfWorms = Instance.new("ImageButton")
+ dynamite = Instance.new("ImageButton")
+ FireworkLauncher = Instance.new("ImageButton")
+ Painting9 = Instance.new("ImageButton")
+ Painting8 = Instance.new("ImageButton")
+ Painting7 = Instance.new("ImageButton")
+ Painting6 = Instance.new("ImageButton")
+ Painting3 = Instance.new("ImageButton")
+ Painting2 = Instance.new("ImageButton")
+ Painting1 = Instance.new("ImageButton")
+ local Axes = Instance.new("Frame")
+ Nothing_13 = Instance.new("TextLabel")
+ ButtonAxe = Instance.new("ImageButton")
+ AxesMain = Instance.new("Frame")
+ ScrollingFrame_5 = Instance.new("ScrollingFrame")
+ UIGridLayout_4 = Instance.new("UIGridLayout")
+ BasicHatchet = Instance.new("ImageButton")
+ PlainAxe = Instance.new("ImageButton")
+ SteelAxe = Instance.new("ImageButton")
+ HardenedAxe = Instance.new("ImageButton")
+ SilverAxe = Instance.new("ImageButton")
+ BirdAxe = Instance.new("ImageButton")
+ Rukiryaxe = Instance.new("ImageButton")
+ ManyAxe = Instance.new("ImageButton")
+ Vehicles = Instance.new("Frame")
+ Nothing_14 = Instance.new("TextLabel")
+ ButtonVehicles = Instance.new("ImageButton")
+ VehiclesMain = Instance.new("Frame")
+ ScrollingFrame_6 = Instance.new("ScrollingFrame")
+ UIGridLayout_5 = Instance.new("UIGridLayout")
+ Trailer2 = Instance.new("ImageButton")
+ SmallTrailer = Instance.new("ImageButton")
+ UtilityTruck = Instance.new("ImageButton")
+ UtilityTruck2 = Instance.new("ImageButton")
+ Pickup1 = Instance.new("ImageButton")
+ Workables = Instance.new("Frame")
+ Nothing_15 = Instance.new("TextLabel")
+ ButtonWorkable = Instance.new("ImageButton")
+ WorkablesMain = Instance.new("Frame")
+ ScrollingFrame_7 = Instance.new("ScrollingFrame")
+ UIGridLayout_6 = Instance.new("UIGridLayout")
+ Sawmill = Instance.new("ImageButton")
+ Sawmill2 = Instance.new("ImageButton")
+ Sawmax01 = Instance.new("ImageButton")
+ Sawmill4 = Instance.new("ImageButton")
+ Sawmill4L = Instance.new("ImageButton")
+ PressurePlate = Instance.new("ImageButton")
+ Lever0 = Instance.new("ImageButton")
+ Button0 = Instance.new("ImageButton")
+ GateNOT = Instance.new("ImageButton")
+ GateAND = Instance.new("ImageButton")
+ GateOR = Instance.new("ImageButton")
+ GateXOR = Instance.new("ImageButton")
+ SignalSustain = Instance.new("ImageButton")
+ WoodChecker = Instance.new("ImageButton")
+ Laser = Instance.new("ImageButton")
+ LaserReceiver = Instance.new("ImageButton")
+ Hatch = Instance.new("ImageButton")
+ Lights = Instance.new("Frame")
+ Nothing_16 = Instance.new("TextLabel")
+ ButtonLights = Instance.new("ImageButton")
+ LightsMain = Instance.new("Frame")
+ ScrollingFrame_8 = Instance.new("ScrollingFrame")
+ UIGridLayout_7 = Instance.new("UIGridLayout")
+ WorkLight = Instance.new("ImageButton")
+ IcicleWireAmber = Instance.new("ImageButton")
+ IcicleWireBlue = Instance.new("ImageButton")
+ IcicleWireGreen = Instance.new("ImageButton")
+ IcicleWireRed = Instance.new("ImageButton")
+ FloorLamp1 = Instance.new("ImageButton")
+ Lamp1 = Instance.new("ImageButton")
+ WallLight1 = Instance.new("ImageButton")
+ WallLight2 = Instance.new("ImageButton")
+ Wires = Instance.new("Frame")
+ Nothing_17 = Instance.new("TextLabel")
+ ButtonWires = Instance.new("ImageButton")
+ WiresMain = Instance.new("Frame")
+ ScrollingFrame_9 = Instance.new("ScrollingFrame")
+ UIGridLayout_8 = Instance.new("UIGridLayout")
+ Wire = Instance.new("ImageButton")
+ NeonWireRed = Instance.new("ImageButton")
+ NeonWireOrange = Instance.new("ImageButton")
+ NeonWireYellow = Instance.new("ImageButton")
+ NeonWireGreen = Instance.new("ImageButton")
+ NeonWireCyan = Instance.new("ImageButton")
+ NeonWireBlue = Instance.new("ImageButton")
+ NeonWireViolet = Instance.new("ImageButton")
+ NeonWireWhite = Instance.new("ImageButton")
+ Conveyors = Instance.new("Frame")
+ Nothing_18 = Instance.new("TextLabel")
+ ButtonConveyor = Instance.new("ImageButton")
+ ConveyorMain = Instance.new("Frame")
+ ScrollingFrame_10 = Instance.new("ScrollingFrame")
+ UIGridLayout_9 = Instance.new("UIGridLayout")
+ StraightConveyor = Instance.new("ImageButton")
+ TiltConveyor = Instance.new("ImageButton")
+ TightTurnConveyor = Instance.new("ImageButton")
+ StraightSwitchConveyorLeft = Instance.new("ImageButton")
+ StraightSwitchConveyorRight = Instance.new("ImageButton")
+ ConveyorSwitch = Instance.new("ImageButton")
+ ConveyorFunnel = Instance.new("ImageButton")
+ LogSweeper = Instance.new("ImageButton")
+ TightTurnConveyorSupports = Instance.new("ImageButton")
+ ConveyorSupports = Instance.new("ImageButton")
+ Misc = Instance.new("Frame")
+ Nothing_19 = Instance.new("TextLabel")
+ Deactivated3 = Instance.new("ImageButton")
+ MiscMain = Instance.new("Frame")
+ MiscMain2 = Instance.new("Frame")
+ Nothing_20 = Instance.new("Frame")
+ BluePrints = Instance.new("TextButton")
+ Dupe = Instance.new("TextButton")
+ Fog = Instance.new("TextButton")
+ HardDrag = Instance.new("TextButton")
+ LeakedItems = Instance.new("TextButton")
+ Bridgee = Instance.new("Frame")
+ OnBR = Instance.new("ImageButton")
+ OffBR = Instance.new("ImageButton")
+ Nothing_21 = Instance.new("TextLabel")
+ StlCrds = Instance.new("Frame")
+ StealCords = Instance.new("ImageButton")
+ TextLabel = Instance.new("TextLabel")
+ StealMain = Instance.new("Frame")
+ StealText = Instance.new("TextBox")
+ StealAxe = Instance.new("TextButton")
+ StealItems = Instance.new("TextButton")
+ StealBox = Instance.new("TextButton")
+ StealGifts = Instance.new("TextButton")
+ CordsMain = Instance.new("Frame")
+ CordsText = Instance.new("TextLabel")
+ SetCords = Instance.new("TextButton")
+local Players3 = Instance.new("Frame")
+local Player_1 = Instance.new("TextButton")
+local Player_2 = Instance.new("TextButton")
+local Player_3 = Instance.new("TextButton")
+local Player_4 = Instance.new("TextButton")
+local Player_5 = Instance.new("TextButton")
+local Player_6 = Instance.new("TextButton")
+local Players = Instance.new("Frame")
+local Player_1_2 = Instance.new("TextButton")
+local Player_2_2 = Instance.new("TextButton")
+local Player_3_2 = Instance.new("TextButton")
+local Player_4_2 = Instance.new("TextButton")
+local Player_5_2 = Instance.new("TextButton")
+local Player_6_2 = Instance.new("TextButton")
+local Players2 = Instance.new("Frame")
+local Player_1_3 = Instance.new("TextButton")
+local Player_2_3 = Instance.new("TextButton")
+local Player_3_3 = Instance.new("TextButton")
+local Player_4_3 = Instance.new("TextButton")
+local Player_5_3 = Instance.new("TextButton")
+local Player_6_3 = Instance.new("TextButton")
+ Local = Instance.new("Frame")
+ Nothing_22 = Instance.new("TextLabel")
+ Deactivated7 = Instance.new("ImageButton")
+ LocalMain = Instance.new("Frame")
+ LocalMain2 = Instance.new("Frame")
+ WtrWalk = Instance.new("Frame")
+ OffW = Instance.new("ImageButton")
+ OnW = Instance.new("ImageButton")
+ Nothing_23 = Instance.new("TextLabel")
+ Speed = Instance.new("Frame")
+ Nothing_24 = Instance.new("TextLabel")
+ OffS = Instance.new("ImageButton")
+ OnS = Instance.new("ImageButton")
+ TS = Instance.new("TextBox")
+ Jump = Instance.new("Frame")
+ Nothing_25 = Instance.new("TextLabel")
+ OffJ = Instance.new("ImageButton")
+ OnJ = Instance.new("ImageButton")
+ TJ = Instance.new("TextBox")
+ Fly = Instance.new("Frame")
+ Nothing_26 = Instance.new("TextLabel")
+ OnF = Instance.new("ImageButton")
+ OffF = Instance.new("ImageButton")
+ InfJump = Instance.new("TextButton")
+ Nothing_27 = Instance.new("TextLabel")
+ Plot = Instance.new("Frame")
+ Nothing_28 = Instance.new("TextLabel")
+ Deactivated6 = Instance.new("ImageButton")
+ PlotMain = Instance.new("Frame")
+ PlotMain2 = Instance.new("Frame")
+ PText = Instance.new("TextBox")
+ PlrPlot = Instance.new("TextButton")
+ MyPlot = Instance.new("TextButton")
+ ClonePlot = Instance.new("TextButton")
+ WipeBase = Instance.new("TextButton")
+ MaxLand = Instance.new("TextButton")
+ AutoBlack = Instance.new("Frame")
+ OffAuB = Instance.new("ImageButton")
+ OnAuB = Instance.new("ImageButton")
+ Nothing_29 = Instance.new("TextLabel")
+ AntiBlack = Instance.new("Frame")
+ OffAB = Instance.new("ImageButton")
+ OnAB = Instance.new("ImageButton")
+ Nothing_30 = Instance.new("TextLabel")
+ Teleport = Instance.new("Frame")
+ Nothing_31 = Instance.new("TextLabel")
+ Deactivated5 = Instance.new("ImageButton")
+ TeleportMain = Instance.new("Frame")
+ TeleportMain2 = Instance.new("Frame")
+ TeleportScroll = Instance.new("ScrollingFrame")
+ SpawnPoint_2 = Instance.new("TextButton")
+ UIListLayout_2 = Instance.new("UIListLayout")
+ WoodRUs_2 = Instance.new("TextButton")
+ LandStore_2 = Instance.new("TextButton")
+ LinksLogic_2 = Instance.new("TextButton")
+ FancyFurnishings_2 = Instance.new("TextButton")
+ BoxedCars_2 = Instance.new("TextButton")
+ Bridge_2 = Instance.new("TextButton")
+ Volcano_2 = Instance.new("TextButton")
+ VolcanoWin = Instance.new("TextButton")
+ IceWood_2 = Instance.new("TextButton")
+ PalmIsland_2 = Instance.new("TextButton")
+ FineArtsShop_2 = Instance.new("TextButton")
+ Cave_2 = Instance.new("TextButton")
+ Swamp_2 = Instance.new("TextButton")
+ Dock_2 = Instance.new("TextButton")
+ TheDen_2 = Instance.new("TextButton")
+ SkiLodge = Instance.new("TextButton")
+ EndTimes_2 = Instance.new("TextButton")
+ ShrineOfSight_2 = Instance.new("TextButton")
+ StrangeMan = Instance.new("TextButton")
+ BobsShack_2 = Instance.new("TextButton")
+ GoldWood_2 = Instance.new("TextButton")
+ CtrlClick = Instance.new("TextButton")
+ Updates = Instance.new("Frame")
+ Nothing_32 = Instance.new("TextLabel")
+ Nothing_33 = Instance.new("TextLabel")
+ Wood = Instance.new("Frame")
+ Nothing_34 = Instance.new("TextLabel")
+ Deactivated4 = Instance.new("ImageButton")
+ WoodMain = Instance.new("Frame")
+ WoodMain2 = Instance.new("Frame")
+ GodAxe = Instance.new("Frame")
+ OffA = Instance.new("ImageButton")
+ OnA = Instance.new("ImageButton")
+ Nothing_35 = Instance.new("TextLabel")
+ GodAxe_2 = Instance.new("Frame")
+ OffT = Instance.new("ImageButton")
+ OnT = Instance.new("ImageButton")
+ Nothing_36 = Instance.new("TextLabel")
+ SellWood = Instance.new("TextButton")
+ SellPlanks = Instance.new("TextButton")
+ TpWood = Instance.new("TextButton")
+ TpPlanks = Instance.new("TextButton")
+ UIListLayout_3 = Instance.new("UIListLayout")
+ Paint = Instance.new("TextButton")
+ FindSpook = Instance.new("TextButton")
+ Close = Instance.new("ImageButton")
+ Music = Instance.new("ImageButton")
+ MusicMain = Instance.new("Frame")
+ Nothing_37 = Instance.new("TextLabel")
+ MusicText = Instance.new("TextBox")
+ Play = Instance.new("TextButton")
+ Stop = Instance.new("TextButton")
+ Halo = Instance.new("TextButton")
+ Pokemon = Instance.new("TextButton")
+ Mario = Instance.new("TextButton")
+ Kirby = Instance.new("TextButton")
+ FallenKingdom = Instance.new("TextButton")
+ Skeleton = Instance.new("TextButton")
+ Loopy = Instance.new("TextLabel")
+ Volume = Instance.new("TextBox")
+ Nothing_38 = Instance.new("TextLabel")
+ Nothing_39 = Instance.new("TextLabel")
+ Music2 = Instance.new("ImageButton")
+ Music3 = Instance.new("ImageButton")
+ Updt = Instance.new("TextButton")
+ Nothing_40 = Instance.new("ImageLabel")
+ Nothing_41 = Instance.new("TextLabel")
+ ProjectName = Instance.new("TextLabel")
+ local Version = Instance.new("TextLabel")
+ Failed = Instance.new("Frame")
+ FailedText = Instance.new("TextLabel")
 --Properties:
- 
-DoodlesHub.Name = "DoodlesHub"
-DoodlesHub.Parent = game.CoreGui
-DoodlesHub.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
- 
-OpenFrame.Name = "OpenFrame"
-OpenFrame.Parent = DoodlesHub
-OpenFrame.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
-OpenFrame.Position = UDim2.new(0.431301981, 0, 0.946215153, 0)
-OpenFrame.Size = UDim2.new(0, 98, 0, 27)
- 
-Open.Name = "Open"
-Open.Parent = OpenFrame
-Open.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
-Open.Size = UDim2.new(0, 98, 0, 26)
-Open.Font = Enum.Font.Cartoon
-Open.Text = "Open"
-Open.TextColor3 = Color3.fromRGB(0, 0, 0)
-Open.TextScaled = true
-Open.TextSize = 14.000
-Open.TextWrapped = true
-Open.MouseButton1Down:connect(function()
-Main.Visible = true
-OpenFrame.Visible = false
-end)
- 
- 
-Main.Name = "Main"
-Main.Parent = DoodlesHub
-Main.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
-Main.Position = UDim2.new(0.191400826, 0, 0.203187257, 0)
-Main.Size = UDim2.new(0, 462, 0, 248)
-Main.Draggable = true
- 
-GuiNameAndClose.Name = "GuiNameAndClose"
-GuiNameAndClose.Parent = Main
-GuiNameAndClose.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-GuiNameAndClose.Size = UDim2.new(0, 462, 0, 25)
- 
-DoodleHub.Name = "DoodleHub"
-DoodleHub.Parent = GuiNameAndClose
-DoodleHub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-DoodleHub.BackgroundTransparency = 1.000
-DoodleHub.Position = UDim2.new(0.231366277, 0, 0, 0)
-DoodleHub.Size = UDim2.new(0, 248, 0, 25)
-DoodleHub.Font = Enum.Font.Cartoon
-DoodleHub.Text = "Doodle's Hub"
-DoodleHub.TextColor3 = Color3.fromRGB(255, 255, 255)
-DoodleHub.TextScaled = true
-DoodleHub.TextSize = 14.000
-DoodleHub.TextWrapped = true
- 
-Close.Name = "Close"
-Close.Parent = GuiNameAndClose
-Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Close.BackgroundTransparency = 1.000
-Close.Position = UDim2.new(0.890109897, 0, 0.0399999619, 0)
-Close.Size = UDim2.new(0, 39, 0, 24)
-Close.Font = Enum.Font.Cartoon
-Close.Text = "Close"
-Close.TextColor3 = Color3.fromRGB(255, 255, 255)
-Close.TextScaled = true
-Close.TextSize = 14.000
-Close.TextWrapped = true
-Close.MouseButton1Down:connect(function()
-OpenFrame.Visible = true
-Main.Visible = false
-end)
- 
-GuiNameAndClose_2.Name = "GuiNameAndClose"
-GuiNameAndClose_2.Parent = Main
-GuiNameAndClose_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-GuiNameAndClose_2.Position = UDim2.new(0, 0, 0.889243901, 0)
-GuiNameAndClose_2.Size = UDim2.new(0, 462, 0, 27)
- 
-Credits.Name = "Credits"
-Credits.Parent = GuiNameAndClose_2
-Credits.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Credits.BackgroundTransparency = 1.000
-Credits.Position = UDim2.new(0.0887445882, 0, -0.00153878704, 0)
-Credits.Size = UDim2.new(0, 363, 0, 27)
-Credits.Font = Enum.Font.Cartoon
-Credits.Text = "Made By Okto & Redesigned/Fixed By Okto"
-Credits.TextColor3 = Color3.fromRGB(255, 255, 255)
-Credits.TextScaled = true
-Credits.TextSize = 14.000
-Credits.TextWrapped = true
- 
-bloodhub.Name = "bloodhub"
-bloodhub.Parent = Main
-bloodhub.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
-bloodhub.Position = UDim2.new(0.712204456, 0, 0.194377705, 0)
-bloodhub.Size = UDim2.new(0, 114, 0, 40)
-bloodhub.Font = Enum.Font.Cartoon
-bloodhub.Text = "Blood Hub"
-bloodhub.TextColor3 = Color3.fromRGB(255, 255, 255)
-bloodhub.TextSize = 20.000
-bloodhub.TextWrapped = true
-bloodhub.MouseButton1Down:connect(function()
-loadstring(game:HttpGet("https://trojxnscripts.xyz/BloodHub", true))()
-end)
- 
-jb36hub.Name = "jb36hub"
-jb36hub.Parent = Main
-jb36hub.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
-jb36hub.Position = UDim2.new(0.390442848, 0, 0.194377705, 0)
-jb36hub.Size = UDim2.new(0, 114, 0, 40)
-jb36hub.Font = Enum.Font.Cartoon
-jb36hub.Text = "JB36 Hub"
-jb36hub.TextColor3 = Color3.fromRGB(255, 255, 255)
-jb36hub.TextSize = 20.000
-jb36hub.TextWrapped = true
-jb36hub.MouseButton1Down:connect(function()
--- Gui to Lua
--- Version: 3
- 
--- Instances:
-Opened = false
-Enabled = false
-local Jb36Hub = Instance.new("ScreenGui")
-local MainGUI = Instance.new("Frame")
-local ImageLabel = Instance.new("ImageLabel")
-local jb3name = Instance.new("TextLabel")
-local Blood = Instance.new("TextButton")
-local Ferry = Instance.new("TextButton")
-local Syntax = Instance.new("TextButton")
-local BringUp = Instance.new("TextButton")
-local Extremelumber = Instance.new("TextButton")
-local Duper = Instance.new("TextButton")
-local DarkLumberX = Instance.new("TextButton")
-local Lightlumber = Instance.new("TextButton")
-local discord = Instance.new("TextButton")
-local VenyxCracked = Instance.new("TextButton")
-local OpenGUI = Instance.new("TextButton")
-local disc = Instance.new("Frame")
-local sub = Instance.new("ImageLabel")
-local TextLabel = Instance.new("TextLabel")
- 
---Properties:
- 
-Jb36Hub.Name = "Jb36 Hub "
-Jb36Hub.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-Jb36Hub.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
- 
-  wait(0.3)
-game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "Jb36 Hub";
-    Text = "Successfully Loaded..."
-})
- 
-MainGUI.Name = "MainGUI"
-MainGUI.Parent = Jb36Hub
-MainGUI.BackgroundColor3 = Color3.new(1, 1, 1)
-MainGUI.Position = UDim2.new(0.136633649, 0, 0.131524011, 0)
-MainGUI.Size = UDim2.new(0, 404, 0, 295)
-MainGUI.Visible = false
-MainGUI.Active = true
-MainGUI.Draggable = true
- 
-ImageLabel.Parent = MainGUI
-ImageLabel.BackgroundColor3 = Color3.new(1, 1, 1)
-ImageLabel.Position = UDim2.new(0, 0, 0.00330544263, 0)
-ImageLabel.Size = UDim2.new(0, 404, 0, 294)
-ImageLabel.Image = "http://www.roblox.com/asset/?id=4341384895"
- 
-jb3name.Name = "jb3name "
-jb3name.Parent = MainGUI
-jb3name.BackgroundColor3 = Color3.new(1, 1, 1)
-jb3name.BackgroundTransparency = 1
-jb3name.Position = UDim2.new(-0.353960395, 0, -0.00155497715, 0)
-jb3name.Size = UDim2.new(0, 404, 0, 50)
-jb3name.Font = Enum.Font.SourceSans
-jb3name.Text = "Jb36 Hub"
-jb3name.TextColor3 = Color3.new(0, 0, 0)
-jb3name.TextSize = 30
- 
-Blood.Name = "Blood"
-Blood.Parent = MainGUI
-Blood.BackgroundColor3 = Color3.new(0, 0.952941, 1)
-Blood.BackgroundTransparency = 0.5
-Blood.Position = UDim2.new(0, 0, 0.376271188, 0)
-Blood.Size = UDim2.new(0, 101, 0, 28)
-Blood.Font = Enum.Font.SourceSans
-Blood.Text = "Blood"
-Blood.TextColor3 = Color3.new(0, 0, 0)
-Blood.TextSize = 14
-Blood.MouseButton1Down:connect(function()
- loadstring(game:HttpGet(('https://pastebin.com/raw/qt3SDXvH'),true))()
-end)
- 
-Ferry.Name = "Ferry"
-Ferry.Parent = MainGUI
-Ferry.BackgroundColor3 = Color3.new(0, 0.952941, 1)
-Ferry.BackgroundTransparency = 0.5
-Ferry.Position = UDim2.new(0, 0, 0.549152553, 0)
-Ferry.Size = UDim2.new(0, 101, 0, 28)
-Ferry.Font = Enum.Font.SourceSans
-Ferry.Text = "Ferry"
-Ferry.TextColor3 = Color3.new(0, 0, 0)
-Ferry.TextSize = 14
-Ferry.MouseButton1Down:connect(function()
- loadstring(game:HttpGet(('https://pastebin.com/raw/D46E1PYw'),true))()
-end)
- 
-Syntax.Name = "Syntax"
-Syntax.Parent = MainGUI
-Syntax.BackgroundColor3 = Color3.new(0, 0.952941, 1)
-Syntax.BackgroundTransparency = 0.5
-Syntax.Position = UDim2.new(0, 0, 0.7355932, 0)
-Syntax.Size = UDim2.new(0, 101, 0, 28)
-Syntax.Font = Enum.Font.SourceSans
-Syntax.Text = "Syntax"
-Syntax.TextColor3 = Color3.new(0, 0, 0)
-Syntax.TextSize = 14
-Syntax.MouseButton1Down:connect(function()
- loadstring(game:HttpGet(('https://pastebin.com/raw/wWxsHtxJ'),true))()
-end)
- 
-BringUp.Name = "Bring Up "
-BringUp.Parent = MainGUI
-BringUp.BackgroundColor3 = Color3.new(0, 0.952941, 1)
-BringUp.BackgroundTransparency = 0.5
-BringUp.Position = UDim2.new(0.344059408, 0, 0.376271188, 0)
-BringUp.Size = UDim2.new(0, 101, 0, 28)
-BringUp.Font = Enum.Font.SourceSans
-BringUp.Text = "Bring Up"
-BringUp.TextColor3 = Color3.new(0, 0, 0)
-BringUp.TextSize = 14
-BringUp.MouseButton1Down:connect(function()
-loadstring(game:GetObjects("rbxassetid://01925396229")[1].Source)()
-end)
- 
-Extremelumber.Name = "Extreme lumber "
-Extremelumber.Parent = MainGUI
-Extremelumber.BackgroundColor3 = Color3.new(0, 0.952941, 1)
-Extremelumber.BackgroundTransparency = 0.5
-Extremelumber.Position = UDim2.new(0.344059408, 0, 0.549152553, 0)
-Extremelumber.Size = UDim2.new(0, 101, 0, 28)
-Extremelumber.Font = Enum.Font.SourceSans
-Extremelumber.Text = "Extreme Lumber "
-Extremelumber.TextColor3 = Color3.new(0, 0, 0)
-Extremelumber.TextSize = 14
-Extremelumber.MouseButton1Down:connect(function()
- loadstring(game:HttpGet(('https://pastebin.com/raw/PvQMf5vv'),true))()
-end)
- 
-Duper.Name = "Duper"
-Duper.Parent = MainGUI
-Duper.BackgroundColor3 = Color3.new(0, 0.952941, 1)
-Duper.BackgroundTransparency = 0.5
-Duper.Position = UDim2.new(0.344059408, 0, 0.7355932, 0)
-Duper.Size = UDim2.new(0, 101, 0, 28)
-Duper.Font = Enum.Font.SourceSans
-Duper.Text = "Duper"
-Duper.TextColor3 = Color3.new(0, 0, 0)
-Duper.TextSize = 14
-Duper.MouseButton1Down:connect(function()
- loadstring(game:HttpGet(('https://pastebin.com/raw/FFB3wAgi'),true))()
-end)
- 
-DarkLumberX.Name = "Dark Lumber X"
-DarkLumberX.Parent = MainGUI
-DarkLumberX.BackgroundColor3 = Color3.new(0, 0.952941, 1)
-DarkLumberX.BackgroundTransparency = 0.5
-DarkLumberX.Position = UDim2.new(0.646039605, 0, 0.376271188, 0)
-DarkLumberX.Size = UDim2.new(0, 101, 0, 28)
-DarkLumberX.Font = Enum.Font.SourceSans
-DarkLumberX.Text = "Dark Lumber X"
-DarkLumberX.TextColor3 = Color3.new(0, 0, 0)
-DarkLumberX.TextSize = 14
-DarkLumberX.MouseButton1Down:connect(function()
- loadstring(game:HttpGet(('https://https://pastebin.com/raw/VD8BWTWL'),true))()
-end)
- 
-Lightlumber.Name = "Light lumber "
-Lightlumber.Parent = MainGUI
-Lightlumber.BackgroundColor3 = Color3.new(0, 0.952941, 1)
-Lightlumber.BackgroundTransparency = 0.5
-Lightlumber.Position = UDim2.new(0.646039605, 0, 0.549152553, 0)
-Lightlumber.Size = UDim2.new(0, 101, 0, 28)
-Lightlumber.Font = Enum.Font.SourceSans
-Lightlumber.Text = "Light Lumber "
-Lightlumber.TextColor3 = Color3.new(0, 0, 0)
-Lightlumber.TextSize = 14
-Lightlumber.MouseButton1Down:connect(function()
- loadstring(game:HttpGet(('https://pastebin.com/raw/5W8wSCsi'),true))()
-end)
- 
-discord.Name = "discord"
-discord.Parent = MainGUI
-discord.BackgroundColor3 = Color3.new(0, 0.952941, 1)
-discord.BackgroundTransparency = 0.5
-discord.Position = UDim2.new(0.646039605, 0, 0.7355932, 0)
-discord.Size = UDim2.new(0, 101, 0, 28)
-discord.Font = Enum.Font.SourceSans
-discord.Text = "Discord Jb server "
-discord.TextColor3 = Color3.new(0, 0, 0)
-discord.TextSize = 14
-discord.Active = true
-discord.Draggable = true
-discord.MouseButton1Click:Connect(function()
- print("Open")
- if Enabled == false then
-  Enabled = true
-  disc.Visible = true
-    wait(0.3)
-game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "Jb36 Hub";
-    Text = "Opened.."
-})
- else
-  Enabled = false
-  disc.Visible = false
-      wait(0.3)
-game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "Jb36 Hub";
-    Text = "Closed.."
-})
- end
-end)
- 
-VenyxCracked.Name = "VenyxCracked"
-VenyxCracked.Parent = MainGUI
-VenyxCracked.BackgroundColor3 = Color3.new(0, 0.952941, 1)
-VenyxCracked.BackgroundTransparency = 0.5
-VenyxCracked.Position = UDim2.new(0.344059408, 0, 0.901694894, 0)
-VenyxCracked.Size = UDim2.new(0, 101, 0, 28)
-VenyxCracked.Font = Enum.Font.SourceSans
-VenyxCracked.Text = "Veny Cracked"
-VenyxCracked.TextColor3 = Color3.new(0, 0, 0)
-VenyxCracked.TextSize = 14
-VenyxCracked.MouseButton1Down:connect(function()
- loadstring(game:HttpGet(('https://pastebin.com/raw/WSmRCq69'),true))()
-end)
- 
-OpenGUI.Name = "OpenGUI"
-OpenGUI.Parent = Jb36Hub
-OpenGUI.BackgroundColor3 = Color3.new(1, 1, 1)
-OpenGUI.BorderColor3 = Color3.new(0.0156863, 0.847059, 0.921569)
-OpenGUI.BorderSizePixel = 5
-OpenGUI.Position = UDim2.new(0, 0, 0.922755718, 0)
-OpenGUI.Size = UDim2.new(0, 104, 0, 31)
-OpenGUI.Font = Enum.Font.SourceSans
-OpenGUI.Text = ">>OPEN<<"
-OpenGUI.TextColor3 = Color3.new(0, 0, 0)
-OpenGUI.TextSize = 25
-OpenGUI.TextStrokeColor3 = Color3.new(0, 1, 0.968628)
-OpenGUI.TextStrokeTransparency = 6
-OpenGUI.Active = true
-OpenGUI.Draggable = false
-OpenGUI.MouseButton1Click:Connect(function()
- print("Closed")
- if Opened == false then
-  Opened = true
-  MainGUI.Visible = true
-  OpenGUI.Text = ">> Close <<"
-    wait(0.3)
-game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "Jb36 Hub";
-    Text = "Opened.."
-})
- else
-  Opened = false
-  MainGUI.Visible = false
-  OpenGUI.Text = ">> Open <<"
-      wait(0.3)
-game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "Jb36 Hub";
-    Text = "Closed.."
-})
- end
-end)
- 
-disc.Name = "disc"
-disc.Parent = Jb36Hub
-disc.BackgroundColor3 = Color3.new(0, 0.984314, 1)
-disc.BackgroundTransparency = 0.5
-disc.Position = UDim2.new(0.536633611, 0, 0.129436329, 0)
-disc.Size = UDim2.new(0, 158, 0, 94)
-disc.Visible = false
- 
-sub.Name = "sub"
-sub.Parent = disc
-sub.BackgroundColor3 = Color3.new(1, 1, 1)
-sub.BackgroundTransparency = 1
-sub.Position = UDim2.new(-0.0053266692, 0, 0.00575832603, 0)
-sub.Size = UDim2.new(0, 157, 0, 50)
-sub.Image = "http://www.roblox.com/asset/?id=4343068165"
- 
-TextLabel.Parent = disc
-TextLabel.BackgroundColor3 = Color3.new(1, 1, 1)
-TextLabel.BackgroundTransparency = 1
-TextLabel.Position = UDim2.new(-0.00632911408, 0, 0.520431638, 0)
-TextLabel.Size = UDim2.new(0, 158, 0, 44)
-TextLabel.Font = Enum.Font.SourceSans
-TextLabel.Text = "https://discord.gg/FZRpyyY"
-TextLabel.TextColor3 = Color3.new(0, 0, 0)
-TextLabel.TextSize = 14
-end)
- 
-jjkhub.Name = "jjkhub"
-jjkhub.Parent = Main
-jjkhub.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
-jjkhub.Position = UDim2.new(0.0627705306, 0, 0.194377705, 0)
-jjkhub.Size = UDim2.new(0, 114, 0, 40)
-jjkhub.Font = Enum.Font.Cartoon
-jjkhub.Text = "JJK Hub"
-jjkhub.TextColor3 = Color3.fromRGB(255, 255, 255)
-jjkhub.TextSize = 20.000
-jjkhub.TextWrapped = true
-jjkhub.MouseButton1Down:connect(function()
-loadstring(game:HttpGet("https://pastebin.com/raw/H7VAJx6Q", true))()
-end)
- 
-duper.Name = "duper"
-duper.Parent = Main
-duper.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
-duper.Position = UDim2.new(0.712204456, 0, 0.644543827, 0)
-duper.Size = UDim2.new(0, 114, 0, 40)
-duper.Font = Enum.Font.Cartoon
-duper.Text = "Duper"
-duper.TextColor3 = Color3.fromRGB(255, 255, 255)
-duper.TextSize = 20.000
-duper.TextWrapped = true
-duper.MouseButton1Down:connect(function()
--- Objects
- 
-local ScreenGui = Instance.new("ScreenGui")
-local MainFrame = Instance.new("Frame")
-local SaveSlot = Instance.new("TextButton")
-local DMoney = Instance.new("TextButton")
-local Store = Instance.new("TextButton")
-local Restore = Instance.new("TextButton")
-local DropAxes = Instance.new("TextButton")
-local Load = Instance.new("TextButton")
-local CountAxes = Instance.new("TextButton")
-local Slot = Instance.new("TextBox")
- 
--- Properties
- 
-ScreenGui.Parent = game.CoreGui
-ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
- 
-MainFrame.Name = "LT2DupeGui"
-MainFrame.Parent = ScreenGui
-MainFrame.BackgroundColor3 = Color3.new(0.282353, 0.278431, 0.278431)
-MainFrame.BorderColor3 = Color3.new(0.588235, 0.588235, 0.588235)
-MainFrame.BorderSizePixel = 3
-MainFrame.Position = UDim2.new(0.111687116, 0, 0.167118713, 0)
-MainFrame.Size = UDim2.new(0, 230, 0, 258)
-MainFrame.Active = true
-MainFrame.Draggable = true
- 
-SaveSlot.Name = "SaveSlot"
-SaveSlot.Parent = MainFrame
-SaveSlot.BackgroundColor3 = Color3.new(0.411765, 0.411765, 0.411765)
-SaveSlot.BorderSizePixel = 2
-SaveSlot.Position = UDim2.new(0.040079806, 0, 0.302941561, 0)
-SaveSlot.Size = UDim2.new(0, 95, 0, 40)
-SaveSlot.Font = Enum.Font.SourceSans
-SaveSlot.Text = "Save Slot"
-SaveSlot.TextColor3 = Color3.new(0, 0, 0)
-SaveSlot.TextSize = 14
- 
-DMoney.Name = "DMoney"
-DMoney.Parent = MainFrame
-DMoney.BackgroundColor3 = Color3.new(0.411765, 0.411765, 0.411765)
-DMoney.BorderSizePixel = 2
-DMoney.Position = UDim2.new(0.0410686359, 0, 0.774269283, 0)
-DMoney.Size = UDim2.new(0, 95, 0, 40)
-DMoney.Font = Enum.Font.SourceSans
-DMoney.Text = "Dupe Money"
-DMoney.TextColor3 = Color3.new(0, 0, 0)
-DMoney.TextSize = 14
- 
-Store.Name = "Store"
-Store.Parent = MainFrame
-Store.BackgroundColor3 = Color3.new(0.411765, 0.411765, 0.411765)
-Store.BorderSizePixel = 2
-Store.Position = UDim2.new(0.514908552, 0, 0.299316287, 0)
-Store.Size = UDim2.new(0, 95, 0, 40)
-Store.Font = Enum.Font.SourceSans
-Store.Text = "Store Axe"
-Store.TextColor3 = Color3.new(0, 0, 0)
-Store.TextSize = 14
- 
-Restore.Name = "Restore"
-Restore.Parent = MainFrame
-Restore.BackgroundColor3 = Color3.new(0.411765, 0.411765, 0.411765)
-Restore.BorderSizePixel = 2
-Restore.Position = UDim2.new(0.51270771, 0, 0.528562546, 0)
-Restore.Size = UDim2.new(0, 95, 0, 40)
-Restore.Font = Enum.Font.SourceSans
-Restore.Text = "Restore Axe"
-Restore.TextColor3 = Color3.new(0, 0, 0)
-Restore.TextSize = 14
- 
-DropAxes.Name = "Drop Axes"
-DropAxes.Parent = MainFrame
-DropAxes.BackgroundColor3 = Color3.new(0.411765, 0.411765, 0.411765)
-DropAxes.BorderSizePixel = 2
-DropAxes.Position = UDim2.new(0.514981687, 0, 0.774269283, 0)
-DropAxes.Size = UDim2.new(0, 95, 0, 40)
-DropAxes.Font = Enum.Font.SourceSans
-DropAxes.Text = "Drop Axes"
-DropAxes.TextColor3 = Color3.new(0, 0, 0)
-DropAxes.TextSize = 14
- 
-Load.Name = "Load"
-Load.Parent = MainFrame
-Load.BackgroundColor3 = Color3.new(0.411765, 0.411765, 0.411765)
-Load.BorderSizePixel = 2
-Load.Position = UDim2.new(0.0410686135, 0, 0.530083239, 0)
-Load.Size = UDim2.new(0, 95, 0, 40)
-Load.Font = Enum.Font.SourceSans
-Load.Text = "Load Slot"
-Load.TextColor3 = Color3.new(0, 0, 0)
-Load.TextSize = 14
- 
-CountAxes.Name = "Count Axes"
-CountAxes.Parent = MainFrame
-CountAxes.BackgroundColor3 = Color3.new(0.411765, 0.411765, 0.411765)
-CountAxes.BorderSizePixel = 2
-CountAxes.Position = UDim2.new(0.510633886, 0, 0.0688429475, 0)
-CountAxes.Size = UDim2.new(0, 95, 0, 40)
-CountAxes.Font = Enum.Font.SourceSans
-CountAxes.Text = "Count Axes"
-CountAxes.TextColor3 = Color3.new(0, 0, 0)
-CountAxes.TextSize = 14
- 
-Slot.Name = "Slot"
-Slot.Parent = MainFrame
-Slot.BackgroundColor3 = Color3.new(0.411765, 0.411765, 0.411765)
-Slot.BorderSizePixel = 2
-Slot.Position = UDim2.new(0.0410686322, 0, 0.0697674453, 0)
-Slot.Size = UDim2.new(0, 94, 0, 39)
-Slot.Font = Enum.Font.SourceSans
-Slot.Text = "Slot Number"
-Slot.TextColor3 = Color3.new(0, 0, 0)
-Slot.TextSize = 14
- 
---Locals
-local MoneyCooldown = false
-local CurrentSlot = game.Players.LocalPlayer:WaitForChild("CurrentSaveSlot").Value
-local ScriptLoadOrSave = false
-local CurrentlySavingOrLoading = game.Players.LocalPlayer:WaitForChild("CurrentlySavingOrLoading")
- 
---Functions
-local function CheckIfSlotAvailable(Slot)
-    for a,b in pairs(game.ReplicatedStorage.LoadSaveRequests.GetMetaData:InvokeServer(game.Players.LocalPlayer)) do
-        if a == Slot then
-            for c,d in pairs(b) do
-                if c == "NumSaves" and d ~= 0 then
-                    return true
-                else
-                    return false
-                end
-            end
-        end
-    end
-end
- 
-local function CheckSlotNumber() --Checks if the slot number is right
-    if Slot.Text == "1" or Slot.Text == "2" or Slot.Text == "3" or Slot.Text == "4" or Slot.Text == "5" or Slot.Text == "6" then
-        local SlotNumber = tonumber(Slot.Text)
-        return SlotNumber
-        else return false
-    end
-end
- 
-local function SendNotification(Title,Text,Duration) -- Sends Notification in the bottom right of the screen
-    game.StarterGui:SetCore("SendNotification", {
-        Title = Title;
-        Text = Text;
-        Icon = nil;
-        Duration = Duration
-    })
-end
- 
-SaveSlot.MouseButton1Down:connect(function() --Saves the slot that you want
-    local CheckSlot = CheckSlotNumber()
-    if CheckSlot ~= false then
-        if CurrentSlot ~= -1 then
-            ScriptLoadOrSave = true
-            local SaveSlot = game.ReplicatedStorage.LoadSaveRequests.RequestSave:InvokeServer(CheckSlot)
-            if SaveSlot == true then
-                SendNotification("Save Notification", "Saved your Slot", 2)
-                wait(.5)
-                ScriptLoadOrSave = false
-            elseif SaveSlot == false then
-                SendNotification("Already Saving", "Saving/Loading is currently in Progress", 1)
-                wait(.5)
-                ScriptLoadOrSave = false
-            end
-        else
-            SendNotification("Error", "Load Your Slot First before saving", 1)
-        end
-    else
-        SendNotification("Incorrect Slot", "Enter a number in the upper field", 1)
-    end
-end)
- 
-Load.MouseButton1Down:connect(function() --Loads the slot you want
-    ScriptLoadOrSave = true
-    local CheckSlot = CheckSlotNumber()
-    if CheckSlot ~= false then
-        if CheckIfSlotAvailable(CheckSlot) == true then
-            local LoadSlot = game.ReplicatedStorage.LoadSaveRequests.RequestLoad:InvokeServer(CheckSlot)
-            if LoadSlot == false then
-                SendNotification("Cooldown Notification", "You aren't abled to load now", 1)
-            end
-            if LoadSlot == true then
-                SendNotification("Reload Notification", "Loaded Your Slot", 2)
-                CurrentSlot = CheckSlot
-            end
-        else
-            SendNotification("Slot not Available", "This Slot is not Available, please choose another slot", 2)
-        end
-    else
-        SendNotification("Incorrect Slot", "Enter a Valid number in the upper field", 1)
-    end
-    ScriptLoadOrSave = false
-end)
- 
-Store.MouseButton1Down:connect(function() --Stores the Axes somewhere so you can restore them later
-    Amount = 0
-    for a,b in pairs(game.Players.LocalPlayer.Backpack:GetChildren())do
-        if b.Name ~= "BlueprintTool" and b.Name == "Tool" then
-            b.Parent = game.Players.LocalPlayer
-            Amount = Amount + 1
-        end
-    end
-    SendNotification("Store Notification", "Stored "..Amount.." Axes, you can restore them later", 2)
-end)
- 
-Restore.MouseButton1Down:connect(function() --Restores the axes that you stored with the Store function
-    Amount = 0
-    for a,b in pairs(game.Players.LocalPlayer:GetChildren()) do
-        if b.Name ~= "BlueprintTool" and b.Name == "Tool" then
-            b.Parent = game.Players.LocalPlayer.Backpack
-            Amount = Amount + 1
-        end
-    end
-    SendNotification("Restore Notification", "Restored "..Amount.." Axes that you Stored", 2)
-end)
- 
-CountAxes.MouseButton1Down:connect(function() --Counts Axes in your Backpack (Equiped Axes dont Count)
-    Amount = 0
-    for a,b in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
-        if b.Name ~= "BlueprintTool" and b.Name == "Tool" then
-            Amount = Amount + 1
-        end
-    end
-    SendNotification("Axe Amount", "You have "..Amount.." Axes in your Backpack",2)
-end)
- 
-DropAxes.MouseButton1Down:connect(function() --Drops all your Axes
-    Amount = 0
-    for a,b in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
-        if b.Name ~= "BlueprintTool" and b.Name == "Tool" then
-            game.ReplicatedStorage.Interaction.ClientInteracted:FireServer(b, "Drop tool", game.Players.LocalPlayer.Character.Head.CFrame)
-            Amount = Amount + 1
-        end
-    end
-    SendNotification("Axe Dropped", "Dropped "..Amount.." Axes from your Backpack",5)
-end)
- 
-DMoney.MouseButton1Down:connect(function() --Sends the money and will come back after around 2 mins
-    if MoneyCooldown == true then
-        SendNotification("Cooldown Notification", "Wait for your Money to come back",2)
-        return
-    elseif MoneyCooldown == false then
-        MoneyCooldown = true
-        SendNotification("Money Sent", "Wait about 2 minutes for your Money to come back", 5)
-        game.ReplicatedStorage.Transactions.ClientToServer.Donate:InvokeServer(game.Players.LocalPlayer, game.Players.LocalPlayer.leaderstats.Money.Value, 1)
-        SendNotification("Money Received", "You received your money that you have sent earlier", 5)
-        MoneyCooldown = false
-    end
-end)
- 
---Anti Overwrite Slot (Sub-Function)
-while wait(.15) do
-    if CurrentlySavingOrLoading.Value == true and ScriptLoadOrSave == false then
-        repeat
-        wait(1)
-        until CurrentlySavingOrLoading.Value == false
-        wait(1)
-        CurrentSlot = game.Players.LocalPlayer.CurrentSaveSlot.Value
-        print(CurrentSlot)
-    end
-end
-end)
- 
-ferry.Name = "ferry"
-ferry.Parent = Main
-ferry.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
-ferry.Position = UDim2.new(0.0627705604, 0, 0.644543827, 0)
-ferry.Size = UDim2.new(0, 114, 0, 40)
-ferry.Font = Enum.Font.Cartoon
-ferry.Text = "Ferry"
-ferry.TextColor3 = Color3.fromRGB(255, 255, 255)
-ferry.TextSize = 20.000
-ferry.TextWrapped = true
-ferry.MouseButton1Down:connect(function()
-loadstring(game:HttpGet(('https://pastebin.com/raw/D46E1PYw'),true))()
-end)
- 
-pinkwires.Name = "pinkwires"
-pinkwires.Parent = Main
-pinkwires.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
-pinkwires.Position = UDim2.new(0.390442908, 0, 0.644543827, 0)
-pinkwires.Size = UDim2.new(0, 114, 0, 40)
-pinkwires.Font = Enum.Font.Cartoon
-pinkwires.Text = "Pink Wires"
-pinkwires.TextColor3 = Color3.fromRGB(255, 255, 255)
-pinkwires.TextSize = 20.000
-pinkwires.TextWrapped = true
-pinkwires.MouseButton1Down:connect(function()
--- Objects
- 
-local WireChanger = Instance.new("ScreenGui")
-local Frame = Instance.new("Frame")
-local Decor = Instance.new("TextButton")
-local Execute = Instance.new("TextButton")
-local Type = Instance.new("TextButton")
-local ALabel2 = Instance.new("TextLabel")
-local ALabel1 = Instance.new("TextLabel")
-local Note = Instance.new("TextLabel")
-local Creds = Instance.new("TextLabel")
- 
--- Properties
- 
-WireChanger.Name = "WireChanger"
-WireChanger.Parent = game.StarterGui
- 
-Frame.Parent = WireChanger
-Frame.BackgroundColor3 = Color3.new(1, 1, 1)
-Frame.BackgroundTransparency = 1
-Frame.BorderSizePixel = 0
-Frame.Position = UDim2.new(0, 0, 0.360576928, 0)
-Frame.Size = UDim2.new(0.250678748, 0, 0.298076928, 0)
- 
-Decor.Name = "Decor"
-Decor.Parent = Frame
-Decor.Active = false
-Decor.BackgroundColor3 = Color3.new(1, 1, 1)
-Decor.BorderSizePixel = 0
-Decor.Position = UDim2.new(-0.0719999969, 0, -0, 0)
-Decor.Size = UDim2.new(1.06859207, 0, 1, 0)
-Decor.AutoButtonColor = false
-Decor.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
-Decor.Font = Enum.Font.SourceSans
-Decor.FontSize = Enum.FontSize.Size14
-Decor.Text = ""
-Decor.TextSize = 14
- 
-Execute.Name = "Execute"
-Execute.Parent = Frame
-Execute.Active = false
-Execute.BackgroundColor3 = Color3.new(0.333333, 1, 0)
-Execute.BorderSizePixel = 0
-Execute.Position = UDim2.new(0.108303249, 0, 0.806451619, 0)
-Execute.Size = UDim2.new(0.707581222, 0, 0.118279569, 0)
-Execute.AutoButtonColor = false
-Execute.Font = Enum.Font.SourceSans
-Execute.FontSize = Enum.FontSize.Size14
-Execute.Text = "Run Process"
-Execute.TextColor3 = Color3.new(1, 1, 1)
-Execute.TextScaled = true
-Execute.TextSize = 14
-Execute.TextWrapped = true
- 
-Type.Name = "Type"
-Type.Parent = Frame
-Type.Active = false
-Type.BackgroundColor3 = Color3.new(1, 1, 1)
-Type.Position = UDim2.new(0.108303249, 0, 0.440860212, 0)
-Type.Size = UDim2.new(0.0830324888, 0, 0.118279569, 0)
-Type.AutoButtonColor = false
-Type.Font = Enum.Font.SourceSans
-Type.FontSize = Enum.FontSize.Size14
-Type.Text = ""
-Type.TextColor3 = Color3.new(1, 1, 1)
-Type.TextScaled = true
-Type.TextSize = 14
-Type.TextWrapped = true
- 
-ALabel2.Name = "ALabel2"
-ALabel2.Parent = Frame
-ALabel2.BackgroundColor3 = Color3.new(1, 1, 1)
-ALabel2.BackgroundTransparency = 1
-ALabel2.Position = UDim2.new(0.212996393, 0, 0.408602148, 0)
-ALabel2.Size = UDim2.new(0.707581222, 0, 0.182795703, 0)
-ALabel2.Font = Enum.Font.SourceSans
-ALabel2.FontSize = Enum.FontSize.Size14
-ALabel2.Text = "What wire type? (On is Pink, Off is Magenta Icicle)"
-ALabel2.TextScaled = true
-ALabel2.TextSize = 14
-ALabel2.TextWrapped = true
- 
-ALabel1.Name = "ALabel1"
-ALabel1.Parent = Frame
-ALabel1.BackgroundColor3 = Color3.new(1, 1, 1)
-ALabel1.BackgroundTransparency = 1
-ALabel1.Position = UDim2.new(0, 0, 0.0322580636, 0)
-ALabel1.Size = UDim2.new(0.967509031, 0, 0.252688169, 0)
-ALabel1.Font = Enum.Font.SourceSans
-ALabel1.FontSize = Enum.FontSize.Size14
-ALabel1.Text = "To use, Simply buy some Wire from Links Logic or Wood R Us place them then run the script!"
-ALabel1.TextScaled = true
-ALabel1.TextSize = 14
-ALabel1.TextWrapped = true
- 
-Note.Name = "Note"
-Note.Parent = Frame
-Note.BackgroundColor3 = Color3.new(1, 1, 1)
-Note.BackgroundTransparency = 1
-Note.Position = UDim2.new(0, 0, 1, 0)
-Note.Size = UDim2.new(0.967509031, 0, 0.252688169, 0)
-Note.Font = Enum.Font.SourceSans
-Note.FontSize = Enum.FontSize.Size14
-Note.Text = "After script is ran, you will have to rejoin LT2."
-Note.TextColor3 = Color3.new(1, 1, 1)
-Note.TextScaled = true
-Note.TextSize = 14
-Note.TextStrokeTransparency = 0.5
-Note.TextWrapped = true
- 
-Creds.Name = "Creds"
-Creds.Parent = Frame
-Creds.BackgroundColor3 = Color3.new(1, 1, 1)
-Creds.BackgroundTransparency = 1
-Creds.Position = UDim2.new(0, 0, -0.252688169, 0)
-Creds.Size = UDim2.new(0.967509031, 0, 0.252688169, 0)
-Creds.Font = Enum.Font.SourceSans
-Creds.FontSize = Enum.FontSize.Size14
-Creds.Text = "Made by: goldenaxelord\nOriginal Script: VIP Server"
-Creds.TextColor3 = Color3.new(1, 1, 1)
-Creds.TextScaled = true
-Creds.TextSize = 14
-Creds.TextStrokeTransparency = 0.5
-Creds.TextWrapped = true
--- SCRIPTS START HERE
-WireChanger.Parent = game.Players.LocalPlayer.PlayerGui
- 
-local typecurrent = false
--- on = pink, off = icicle
-Type.MouseButton1Down:connect(function(changeTheType)
-	if typecurrent == true then
-		typecurrent = false
-		Type.BackgroundColor3 = Color3.new(255/255, 255/255, 255/255)
-	elseif typecurrent == false then
-		typecurrent = true
-		Type.BackgroundColor3 = Color3.new(85/255, 255/255, 0/255)
-	end
-end)
- 
-Execute.MouseButton1Down:connect(function(ChangeTheWire)
-if typecurrent == true then
-local a = game.ReplicatedStorage.Purchasables:FindFirstChild("NeonWirePinky", true)
-a.Name = "Wire"
-local b = game.ReplicatedStorage.Purchasables:FindFirstChild("Wire", true)
-b:Destroy()
-elseif typecurrent == false then
-local c = game.ReplicatedStorage.Purchasables:FindFirstChild("IcicleWireMagenta", true)
-c.Name = "Wire"
-local d = game.ReplicatedStorage.Purchasables:FindFirstChild("Wire", true)
-d:Destroy()
-end
-end)
-end)
+Dirt.Name = "Dirt"
+Dirt.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+Dirt.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = Dirt
+MainFrame.BackgroundColor3 = Color3.new(0.392157, 0.760784, 0.831373)
+MainFrame.BorderColor3 = Color3.new(0.14902, 0.439216, 0.462745)
+MainFrame.BorderSizePixel = 4
+MainFrame.Position = UDim2.new(2, 0, 0.252999991, 0)
+MainFrame.Size = UDim2.new(0, 154, 0, 401)
+
+Car.Name = "Car"
+Car.Parent = MainFrame
+Car.BackgroundColor3 = Color3.new(0.556863, 0.815686, 0.866667)
+Car.BorderColor3 = Color3.new(0.556863, 0.815686, 0.866667)
+Car.BorderSizePixel = 2
+Car.Position = UDim2.new(0.0483140834, 0, 0.709314287, 0)
+Car.Size = UDim2.new(0, 139, 0, 31)
+
+Nothing.Name = "Nothing"
+Nothing.Parent = Car
+Nothing.BackgroundColor3 = Color3.new(1, 1, 1)
+Nothing.BackgroundTransparency = 1
+Nothing.Position = UDim2.new(0.0575135611, 0, 0.113751814, 0)
+Nothing.Size = UDim2.new(0, 70, 0, 22)
+Nothing.Font = Enum.Font.Cartoon
+Nothing.Text = "Car"
+Nothing.TextColor3 = Color3.new(0, 0, 0)
+Nothing.TextSize = 17
+Nothing.TextXAlignment = Enum.TextXAlignment.Left
+
+Deactivated1.Name = "Deactivated1"
+Deactivated1.Parent = Car
+Deactivated1.BackgroundColor3 = Color3.new(1, 1, 1)
+Deactivated1.BackgroundTransparency = 1
+Deactivated1.BorderSizePixel = 0
+Deactivated1.Position = UDim2.new(0.829999983, 0, 0.123225808, 0)
+Deactivated1.Size = UDim2.new(0, 16, 0, 22)
+Deactivated1.Image = "http://www.roblox.com/asset/?id=3998335089"
+
+CarMain.Name = "CarMain"
+CarMain.Parent = Car
+CarMain.BackgroundColor3 = Color3.new(0.337255, 0.67451, 0.72549)
+CarMain.BorderColor3 = Color3.new(0.14902, 0.439216, 0.462745)
+CarMain.BorderSizePixel = 4
+CarMain.Position = UDim2.new(1.09000003, 0, -0.967999995, 0)
+CarMain.Size = UDim2.new(0, 114, 0, 16)
+CarMain.Visible = false
+
+CarMain2.Name = "CarMain2"
+CarMain2.Parent = CarMain
+CarMain2.BackgroundColor3 = Color3.new(0.392157, 0.760784, 0.831373)
+CarMain2.BorderColor3 = Color3.new(0.14902, 0.439216, 0.462745)
+CarMain2.BorderSizePixel = 4
+CarMain2.Position = UDim2.new(0, 0, 1.11300004, 0)
+CarMain2.Size = UDim2.new(0, 114, 0, 176)
+
+CarSpeed.Name = "CarSpeed"
+CarSpeed.Parent = CarMain2
+CarSpeed.BackgroundColor3 = Color3.new(0.556863, 0.815686, 0.866667)
+CarSpeed.BorderColor3 = Color3.new(0.14902, 0.439216, 0.462745)
+CarSpeed.BorderSizePixel = 2
+CarSpeed.Position = UDim2.new(0.0511009954, 0, 0.0283522159, 0)
+CarSpeed.Size = UDim2.new(0, 77, 0, 25)
+CarSpeed.Font = Enum.Font.Cartoon
+CarSpeed.Text = "Car Speed"
+CarSpeed.TextColor3 = Color3.new(0, 0, 0)
+CarSpeed.TextSize = 14
+
+TextBox.Parent = CarSpeed
+TextBox.BackgroundColor3 = Color3.new(0.556863, 0.815686, 0.866667)
+TextBox.BorderColor3 = Color3.new(0.14902, 0.439216, 0.462745)
+TextBox.BorderSizePixel = 2
+TextBox.Position = UDim2.new(1.00000083, 0, 0, 0)
+TextBox.Size = UDim2.new(0, 25, 0, 25)
+TextBox.Font = Enum.Font.Cartoon
+TextBox.Text = "1"
+TextBox.TextColor3 = Color3.new(0, 0, 0)
+TextBox.TextSize = 14
+
+RotateC.Name = "RotateC"
+RotateC.Parent = CarMain2
+RotateC.BackgroundColor3 = Color3.new(0.556863, 0.815686, 0.866667)
+RotateC.BorderColor3 = Color3.new(0.14902, 0.439216, 0.462745)
+RotateC.BorderSizePixel = 2
+RotateC.Position = UDim2.new(0.0512789153, 0, 0.228272706, 0)
+RotateC.Size = UDim2.new(0, 102, 0, 25)
+RotateC.Font = Enum.Font.Cartoon
+RotateC.Text = "Rotate Car [R]"
+RotateC.TextColor3 = Color3.new(0, 0, 0)
+RotateC.TextSize = 14
+
+Noclip.Name = "Noclip"
+Noclip.Parent = CarMain2
+Noclip.BackgroundColor3 = Color3.new(0.556863, 0.815686, 0.866667)
+Noclip.BorderColor3 = Color3.new(0.14902, 0.439216, 0.462745)
+Noclip.BorderSizePixel = 2
+Noclip.Position = UDim2.new(0.0512789153, 0, 0.428272724, 0)
+Noclip.Size = UDim2.new(0, 102, 0, 25)
+Noclip.Font = Enum.Font.Cartoon
+Noclip.Text = "NoClip (Trees)"
+Noclip.TextColor3 = Color3.new(0, 0, 0)
+Noclip.TextSize = 14
+
+PinkCar.Name = "PinkCar"
+PinkCar.Parent = CarMain2
+PinkCar.BackgroundColor3 = Color3.new(0.556863, 0.815686, 0.866667)
+PinkCar.BorderColor3 = Color3.new(0.14902, 0.439216, 0.462745)
+PinkCar.BorderSizePixel = 2
+PinkCar.Position = UDim2.new(0.0512789153, 0, 0.628272772, 0)
+PinkCar.Size = UDim2.new(0, 102, 0, 25)
+PinkCar.Font = Enum.Font.Cartoon
+PinkCar.Text = "Pink Spawner [C]"
+PinkCar.TextColor3 = Color3.new(0, 0, 0)
+PinkCar.TextSize = 14
+
+PinkCarFrame.Name = "PinkCarFrame"
+PinkCarFrame.Parent = PinkCar
+PinkCarFrame.BackgroundColor3 = Color3.new(0.392157, 0.760784, 0.831373)
+PinkCarFrame.BorderColor3 = Color3.new(0.14902, 0.439216, 0.462745)
+PinkCarFrame.BorderSizePixel = 4
+PinkCarFrame.Position = UDim2.new(-1.59803927, 0, -0.879999995, 0)
+PinkCarFrame.Size = UDim2.new(0, 153, 0, 87)
+PinkCarFrame.Visible = false
+
+PinkCarText.Name = "PinkCarText"
+PinkCarText.Parent = PinkCarFrame
+PinkCarText.BackgroundColor3 = Color3.new(1, 1, 1)
